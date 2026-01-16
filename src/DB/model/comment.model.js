@@ -43,10 +43,4 @@ CommentModel.belongsTo(UserModel, { foreignKey: "userId" });
 CommentModel.belongsTo(PostModel, { foreignKey: "postId" });
 
 
-// CommentModel.belongsTo(PostModel, {
-//   foreignKey: {
-//     // allowNull: false,
-//     name: "postId",
-//   },
-// });
 
