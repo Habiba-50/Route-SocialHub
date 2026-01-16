@@ -1,2 +1,4 @@
-./config/.env.development
-./config/.env.production
+/config
+
+/.ignore
+/node_modules
